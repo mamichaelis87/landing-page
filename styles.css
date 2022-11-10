@@ -7,6 +7,19 @@ body {
 header, footer {
     display: flex;
     padding: 16px;
+    color: white;
+    background-color: #1F2937;
+}
+
+header p {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.face {
+    background-color: #1F2937;
+    display: flex;
 }
 
 .face img {
@@ -17,6 +30,23 @@ header, footer {
 .info-block img {
     height: auto;
     width: 100px;
+}
+
+
+
+.face-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-details {
+    display: flex;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
 }
 
 
