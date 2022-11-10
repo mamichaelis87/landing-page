@@ -8,3 +8,15 @@ header, footer {
     display: flex;
     padding: 16px;
 }
+
+.face img {
+    height: auto;
+    width: 200px;
+}
+
+.info-block img {
+    height: auto;
+    width: 100px;
+}
+
+
