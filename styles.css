@@ -17,14 +17,41 @@ header p {
     font-weight: 600;
 }
 
+header a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
 .face {
     background-color: #1F2937;
     display: flex;
 }
 
+.face-info h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.face-info p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+}
+
 .face img {
     height: auto;
     width: 200px;
+}
+
+.info h2 {
+    font-size: 32px;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 .info-block img {
@@ -48,5 +75,18 @@ header p {
     display: flex;
     flex-direction: column;
 }
+
+.quote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.card {
+    background-color: #3882F6;
+    color: white;
+}
+
 
 
