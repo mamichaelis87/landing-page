@@ -27,6 +27,11 @@ header a {
     display: flex;
 }
 
+.face-info {
+    display: flex;
+    flex-direction: column;
+}
+
 .face-info h1 {
     color: #F9FAF8;
     font-size: 48px;
@@ -48,6 +53,11 @@ button {
     width: 200px;
 }
 
+.info-details {
+    display: flex;
+    justify-content: center;
+}
+
 .info h2 {
     font-size: 32px;
     font-weight: 900;
@@ -57,17 +67,13 @@ button {
 .info-block img {
     height: auto;
     width: 100px;
+    border: 8px solid #1F2937;
+    border-radius: 10px;
+    margin: 40px
 }
 
-
-
-.face-info {
-    display: flex;
-    flex-direction: column;
-}
-
-.info-details {
-    display: flex;
+.info-block p {
+    text-align: center;
 }
 
 .quote {
@@ -86,6 +92,10 @@ button {
 .card {
     background-color: #3882F6;
     color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
 }
 
 
