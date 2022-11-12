@@ -11,6 +11,16 @@ header, footer {
     background-color: #1F2937;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+}
+
 header p {
     font-size: 24px;
     color: #F9FAF8;
@@ -20,6 +30,7 @@ header p {
 header a {
     color: #F9FAF8;
     text-decoration: none;
+    margin: 20px;
 }
 
 .face {
