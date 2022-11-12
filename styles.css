@@ -62,7 +62,10 @@ button {
     max-width: fit-content;
     border-radius: 8px;
     padding: 8px 16px;
+}
 
+.face-info button {
+    border: 0px;
 }
 
 .face img {
@@ -113,9 +116,38 @@ button {
     text-align: right;
 }
 
+.help {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
 .card {
     background-color: #3882F6;
     color: white;
+    display: flex;
+    padding: 40px 80px;
+    justify-content: space-between;
+    border-radius: 20px;
+    column-gap: 240px;
+    align-items: center;
+}
+
+.card div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card h4 {
+    text-align: left;
+    margin: 0;
+}
+
+.card button {
+    border-color: white;
+    padding: 8px 16px;
+    align-self: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
