@@ -36,11 +36,13 @@ header a {
 .face {
     background-color: #1F2937;
     display: flex;
+    justify-content: center;
 }
 
 .face-info {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .face-info h1 {
@@ -57,11 +59,16 @@ header a {
 button {
     background-color: #3882F6;
     color: white;
+    max-width: fit-content;
+    border-radius: 8px;
+    padding: 8px 16px;
+
 }
 
 .face img {
     height: auto;
     width: 200px;
+    margin: 60px;
 }
 
 .info-details {
