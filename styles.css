@@ -77,12 +77,14 @@ button {
 .info-details {
     display: flex;
     justify-content: center;
+    padding-bottom: 80px;
 }
 
 .info h2 {
     font-size: 32px;
     font-weight: 900;
     color: #1F2937;
+    text-align: center;
 }
 
 .info-block img {
@@ -90,7 +92,7 @@ button {
     width: 100px;
     border: 8px solid #1F2937;
     border-radius: 10px;
-    margin: 40px
+    margin: 0px 40px
 }
 
 .info-block p {
@@ -141,17 +143,18 @@ button {
 
 .card h4 {
     text-align: left;
-    margin: 0;
+    margin: 0px;
+}
+
+.card p {
+    margin: 0px;
 }
 
 .card button {
     border-color: white;
     padding: 8px 16px;
     align-self: center;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    text-align: center;
+    flex-shrink: 0;
 }
 
 footer {
