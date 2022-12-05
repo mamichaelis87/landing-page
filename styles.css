@@ -6,7 +6,7 @@ body {
 
 header, footer {
     display: flex;
-    padding: 16px;
+    padding: 16px 64px;
     color: white;
     background-color: #1F2937;
 }
@@ -15,6 +15,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0px 80px;
 }
 
 .links {
@@ -36,7 +37,8 @@ header a {
 .face {
     background-color: #1F2937;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 40px 80px;
 }
 
 .face-info {
@@ -74,10 +76,15 @@ button {
     margin: 60px;
 }
 
+.info{
+    padding: 30px;
+}
+
 .info-details {
     display: flex;
     justify-content: center;
     padding-bottom: 80px;
+    padding-top: 30px;
 }
 
 .info h2 {
@@ -119,7 +126,7 @@ button {
 }
 
 .help {
-    display: flex;
+    display: flex 1;
     justify-content: center;
     padding: 80px;
 }
